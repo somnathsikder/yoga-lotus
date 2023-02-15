@@ -1,0 +1,433 @@
+/* ================================================================
+Author Name: Somnath Sikder
+Template Name: Yoga Lotus
+Tags: Html, Css, Bootstrap, jQuery, Javascript
+=================================================================*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .single-img-box img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+
+.read-more {
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner-inner-content h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.banner-inner-content h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    .banner-inner-content h2 {
+     font-size: 26px;
+     line-height: 30px;
+     font-weight: 700;
+     margin-bottom: 14px;
+ }
+
+ .read-more {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner-inner-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-img-right {
+    text-align: center;
+}
+
+.banner-img-right img {
+    width: 70%;
+}
+
+.section-title h2 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.single-img-box-inner h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 26px;
+    font-weight: 500;
+    color: #120202;
+}
+
+.view-btn {
+    padding: 12px 30px;
+    border-radius: 6px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.single-img-box {
+    margin-bottom: 15px;
+}
+
+.para p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #7A7677;
+}
+
+.about-img-left img {
+    width: 70%;
+}
+
+.about-img-left {
+    text-align: center;
+}
+
+.about-inner h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.about-inner h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+.learn-btn {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.video-btn {
+    background: none;
+    border: none;
+    color: #FF5C00;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.service-flex-area img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.service-flex-inner h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.service-flex-inner p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.pro-single-box h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.pro-flex p {
+    font-size: 12px;
+    line-height: 39px;
+}
+
+.view-pro-btn {
+    padding: 0px 25px;
+    border-radius: 6px;
+    background: none;
+    color: #FF5C00;
+    border: 1px solid #FF5C00;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pro-single-box {
+    margin-bottom: 20px;
+}
+
+
+.brand-single-box {
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-right {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom-left p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.footer-middle ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.footer-inner-title h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6363;
+    margin-bottom: 15px;
+}
+
+.footer-logo h2 {
+    margin-bottom: 20px;
+}
+
+.service-flex-area {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+	
+    .banner-inner-content h2 {
+     font-size: 26px;
+     line-height: 30px;
+     font-weight: 700;
+     margin-bottom: 14px;
+ }
+
+ .read-more {
+    padding: 7px 20px;
+    border-radius: 8px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.banner-inner-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-img-right {
+    text-align: center;
+}
+
+.banner-img-right img {
+    width: 70%;
+}
+
+.section-title h2 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.single-img-box-inner h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 26px;
+    font-weight: 500;
+    color: #120202;
+}
+
+.view-btn {
+    padding: 0px 20px;
+    border-radius: 6px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.single-img-box {
+    margin-bottom: 15px;
+}
+
+.para p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #7A7677;
+}
+
+.about-img-left img {
+    width: 70%;
+}
+
+.about-img-left {
+    text-align: center;
+}
+
+.about-inner h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.about-inner h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+.learn-btn {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #FF5C00;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.video-btn {
+    background: none;
+    border: none;
+    color: #FF5C00;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.service-flex-area img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.service-flex-inner h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.service-flex-inner p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.pro-single-box h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.pro-flex p {
+    font-size: 12px;
+    line-height: 39px;
+}
+
+.view-pro-btn {
+    padding: 0px 25px;
+    border-radius: 6px;
+    background: none;
+    color: #FF5C00;
+    border: 1px solid #FF5C00;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pro-single-box {
+    margin-bottom: 20px;
+}
+
+
+.brand-single-box {
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-right {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+}

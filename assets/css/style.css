@@ -1,0 +1,593 @@
+/*======================================================
+Author Name: Somnath Sikder
+Template Name: Yoga Lotus
+Tags: Html, Css, Bootstrap, jQuery, Javascript
+========================================================*/
+
+/*======================================================
+Table Of Content:
+1. Global Css
+2. Typhography
+3. Common Style
+4. Header Section
+5. Banner Section
+6. About Us
+7. Counter Section 
+8. Our Services 
+9. Testimonials 
+10. Events Pricing Package
+11. Our Team
+12. Booking Table Form
+13. Gallery
+14. Map
+15. Contact Us Form
+16. Footer
+========================================================*/
+
+/*================
+Global Css
+==================*/
+
+body{
+	padding: 0;
+	margin: 0;
+	color: #3a3a3a;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	color: #3a3a3a;
+	font-size: 14px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*================
+Typhography
+==================*/
+
+h1{
+	font-size: 50px;
+	line-height: 65px;
+}
+
+h2{
+	font-size: 40px; 
+	line-height: 50px;
+}
+
+h3{
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h4{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h6{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*================
+Common Style
+==================*/
+
+.section-padding{
+	padding: 70px 0;
+}
+
+.short-section-padding{
+	padding: 50px 0;
+}
+
+.section-bg{
+	background-color: #EEEEEE;
+}
+
+.section-title{
+	margin-bottom: 30px;
+}
+
+.section-title h2{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+.section-title p{
+	font-size: 48px;
+	font-weight: 400;
+}
+
+
+.read-more {
+	padding: 15px 40px;
+	border-radius: 8px;
+	background: #FF5C00;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.see-more{
+	color: #000000;
+	border: none;
+	font-size: 18px;
+	font-weight: 700;
+	background: none;
+}
+
+.view-btn {
+	padding: 10px 30px;
+	border-radius: 6px;
+	background: #FF5C00;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.view-pro-btn {
+	padding: 8px 40px;
+	border-radius: 6px;
+	background: none;
+	color: #FF5C00;
+	border: 1px solid #FF5C00;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.learn-btn {
+	padding: 15px 35px;
+	border-radius: 6px;
+	background: #FF5C00;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.video-btn{
+	background: none;
+	border: none;
+	color: #FF5C00;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 20px;
+}
+
+/*=====================
+Header Section  
+=======================*/
+
+section.header-area {
+	background: #FFEFE0;
+	padding: 15px 0px;
+}
+
+.menu-area {
+	text-align: right;
+}
+
+.menu-area ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.menu-area ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #1E2325;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.logo h2 {
+	color: #1E2325;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.header-btn {
+	text-align: right;
+}
+
+.head-button {
+	background: #ffba82;
+	border: none;
+	padding: 8px 30px;
+	font-size: 16px;
+	color: red;
+	font-weight: 500;
+	border-radius: 6px;
+	border: 1px solid red;
+}
+
+
+/*=============================
+Banner Section
+===============================*/
+
+.banner-area {
+	background: #FFEFE0;
+}
+
+.banner-inner-content h2 {
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.banner-inner-content h4 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	margin-bottom: 50px;
+}
+
+.banner-img-right {
+	text-align: right;
+}
+
+
+/*==========================
+Online Class Section
+============================*/
+
+.online-class-area{
+	background: #f5f5f5;
+}
+
+.single-img-box img {
+	border-radius: 10px 10px 0px 0px;
+}
+
+.single-img-box-inner {
+	border-right: 1px solid #d4ceca;
+	border-left: 1px solid #d4ceca;
+	border-bottom: 1px solid #d4ceca;
+	padding: 20px;
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+.single-img-box-inner h5 {
+	color: #70716A;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.single-img-box-inner h3 {
+	font-size: 28px;
+	line-height: 36px;
+	margin-bottom: 30px;
+	font-weight: 500;
+	color: #120202;
+}
+
+.para p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #7A7677;
+}
+
+.flex-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-margin{
+	margin-top: 100px;
+}
+
+.see-more-btn-flex img {
+	height: 30px;
+	width: 30px;
+}
+
+
+/*=========================
+About Section 
+===========================*/
+
+.about-area{
+	background: #F8F8F8;
+}
+
+.about-img-left img {
+    width: 75%;
+}
+
+.about-inner h3 {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.about-inner h2 {
+	font-size: 42px;
+	line-height: 50px;
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+
+.about-inner p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+
+/*============================
+Service Section
+==============================*/
+
+.service-area{
+	background: #FFEFE2;
+}
+
+
+.service-flex-area {
+    display: flex;
+}
+
+.service-flex-inner {
+    margin-left: 20px;
+}
+
+.service-flex-inner h3 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.service-flex-inner p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+/*===========================
+Instructor Section
+=============================*/
+
+.instructor-area{
+	background: #F5F5F5;
+}
+
+.pro-single-box img {
+    border-radius: 8px;
+}
+
+.pro-single-box h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.pro-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-flex p {
+	font-size: 16px;
+	line-height: 39px;
+}
+
+
+/*============================
+Brand Section
+==============================*/
+
+.brand-area{
+	background: #F5F5F5;
+}
+
+
+.brand-single-box {
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/*=============================
+Testimonial Section
+===============================*/
+
+.testimonial-area{
+	background: #F8F8F8;
+}
+
+
+div#slider {
+    margin-top: 15px;
+}
+
+.img-area {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-area img {
+	width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content p {
+	font-size: 18px;
+    line-height: 24px;
+}
+
+p.socials {
+    margin-top: 30px;
+}
+
+p.socials i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.owl-dots{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.owl-dot{
+	display: inline-block;
+	height: 15px !important;
+	width:  15px !important;
+	background-color: #fafafa !important;
+	opacity: .8;
+	margin: 0 10px;
+	border-radius: 50%;
+	border: 1px solid red !important;
+}
+
+.owl-dot.active{
+	background-color: #FF5C00 !important;
+}
+
+
+
+/*==============================
+Footer Section
+================================*/
+
+.footer-area{
+	background: #0E0E0E;
+}
+
+.footer-logo h2{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.footer-inner-title h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6363;
+    margin-bottom: 25px;
+}
+
+.footer-inner-title ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.single-field input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid red;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+input.send-button {
+	background: #FF5C00;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.single-field p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.footer-bottom-left p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-middle ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-middle ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-middle {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-icon i {
+	margin-right: 20px;
+	font-size: 16px;
+	color: #ffffff;
+}
